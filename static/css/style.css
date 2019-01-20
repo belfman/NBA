@@ -42,6 +42,14 @@ body {
     --mvpColor1: gold;
 }
 
+/* Player Title set up */
+.playerphotoTitle {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px white;
+}
+
 #defensiveTitle {
     color: red;
 }
@@ -140,14 +148,14 @@ ul {
     color: white;
     }
     
-ul li::before {
+    ul li::before {
     content: "\2022";
     color: orange;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
-}
+    }
 
 #credits {
     background-color: rgb(0, 0, 0, .6);
